@@ -16,7 +16,7 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.10",
+    "nodemon": "^1.18.10"
   },
   "engines": {
     "node": "10.15.0" 
