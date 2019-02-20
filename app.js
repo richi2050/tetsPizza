@@ -49,6 +49,16 @@ function handleMessage(senderId, event){
     }
 }
 
+function senderActions(senderId) {
+    const messageData = {
+        "recipient": {
+            "id": senderId
+        },
+        "sender_action": "typing_on"
+    }
+    callSendApi(messageData);
+}
+
 function defaultMessage(senderId) {
     const messageData = {
         "recipient": {
